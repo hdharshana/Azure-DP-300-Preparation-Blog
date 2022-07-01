@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Welcome to Azure DP-300 Learning Blog!
-email: dharshana_bharadwaj@hotmail.com
+title: Welcome to Azure DP-300 Learning Blog
+email: na
 description: >- # this means to ignore newlines until "baseurl:"
   Blogging my journey to complete Azure DP-300 certification!
 baseurl: "/Azure-DP-300-Preparation-Blog" # the subpath of your site, e.g. /blog
 url: "https://hdharshana.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: @dharshb
+twitter_username: na
 github_username:  hdharshana
 
 # Build settings
