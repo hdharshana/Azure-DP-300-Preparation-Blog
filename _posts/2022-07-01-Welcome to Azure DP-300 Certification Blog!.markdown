@@ -1,10 +1,3 @@
----
-layout: post
-title: "Welcome to Azure DP-300 Certification Blog!"
-date: "2022-07-01 17:00:00 -0800"
-categories: "DP-300"
----
-
 # Purpose
 
 This blog summarizes the important take aways and key points to help prepare for the DP-300 Microsoft certtification exam. 
