@@ -1,3 +1,9 @@
+---
+layout: post
+title: My first post!
+categories: [blogging]
+---
+
 # Purpose
 
 This blog summarizes the important take aways and key points to help prepare for the DP-300 Microsoft certtification exam. 
