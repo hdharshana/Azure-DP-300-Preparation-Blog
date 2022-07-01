@@ -31,6 +31,4 @@ pagination:
     {% endfor %}
   </ul>
 
-  {% include pagination.html %}
-
 </div>
