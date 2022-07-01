@@ -6,6 +6,7 @@ This blog summarizes the important take aways and key points to help prepare for
 
 * https://docs.microsoft.com/en-us/learn/certifications/exams/dp-300
 
+
 # Time Estimate
 
 This certification took me about 3 days to prepare for from scatch to the end! I started on a Friday and took my certification test on a Monday! The time also involved 
