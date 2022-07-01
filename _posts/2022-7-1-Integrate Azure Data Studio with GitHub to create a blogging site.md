@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Integrate Azure Data Studio with Git to create a blogging site"
+date: "2022-07-01 18:00:00 -0800"
+categories: "DP-300"
+---
+
 # Purpose
 
 This article goes over how to integrate the blog repository with Azure Data Studio
