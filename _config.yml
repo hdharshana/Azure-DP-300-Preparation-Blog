@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Welcome to Azure DP-300 Learning Blog
+title: Welcome to Azure DP-300 Learning Blog!
 email: dharshana_bharadwaj@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blogging my journey to complete Azure DP-300 certification!
