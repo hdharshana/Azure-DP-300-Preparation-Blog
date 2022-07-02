@@ -1,18 +1,3 @@
----
-title:"Create blog pages using Git, Jekyll, and Azure Data Studio!" 
-description: "Quick start article with pointers and resources for creating blogging sites using Azure Data Studio , Git, and Jekyll"
-author: hdharshaa
-ms.topic: quickstart #Required; leave this attribute/value as-is.
-ms.date: 07/02/2022
-ms.custom: template-quickstart 
----
-
-
-<!-- 1. H1
-Required. Starts with "Quickstart: " Make the first word following "Quickstart:" a 
-verb. Identify both the technology/service and the language or framework, if applicable.
--->
-
 # Quickstart: Use Azure Data Studio, Git, and Jekyll to create a blogging site on Github pages with ease.
 
 <!-- 2. Introductory paragraph 
