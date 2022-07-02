@@ -16,7 +16,7 @@ This blog summarizes the important take aways and key points to help prepare for
 # __Time Estimate__
 
 This certification took me about 3 days to prepare for from scatch to the end! I started on a Friday and took my certification test on a Monday! The time also involved 
-me blogging all this journey along.. 
+me blogging all this journey along...
 
 # __Certification Scheduling__
 
