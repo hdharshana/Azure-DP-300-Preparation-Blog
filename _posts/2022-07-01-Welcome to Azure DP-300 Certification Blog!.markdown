@@ -6,7 +6,7 @@ This blog summarizes the important take aways and key points to help prepare for
 
 # __Resources__
 
-* https://docs.microsoft.com/en-us/learn/certifications/exams/dp-300
+* (https://docs.microsoft.com/en-us/learn/certifications/exams/dp-300)
 
 # __Time Estimate__
 
