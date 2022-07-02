@@ -1,4 +1,9 @@
-
+---
+layout: post
+title:  Welcome to my Azure DP-300 Certification Blog!
+date: 2020-07-02 21:00:00 -0300
+categories: DP-300
+---
 
 # __Purpose__
 

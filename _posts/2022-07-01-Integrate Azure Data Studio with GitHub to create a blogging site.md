@@ -1,3 +1,10 @@
+---
+layout: post
+title:  Welcome to my Azure DP-300 Certification Blog!
+date: 2020-07-02 20:00:00 -0300
+categories: DP-300
+---
+
 # Quickstart: Use Azure Data Studio, Git, and Jekyll to create a blogging site on Github pages with ease.
 
 <!-- 2. Introductory paragraph 
