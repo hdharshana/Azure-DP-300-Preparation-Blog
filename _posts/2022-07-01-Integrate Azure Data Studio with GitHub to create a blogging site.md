@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Welcome to my Azure DP-300 Certification Blog!
-date: 2020-07-02 20:00:00 -0300
+date: 2020-07-01 20:00:00 -0300
 categories: DP-300
 ---
 
