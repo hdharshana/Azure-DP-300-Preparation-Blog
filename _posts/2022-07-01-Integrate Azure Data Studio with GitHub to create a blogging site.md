@@ -52,11 +52,11 @@ This section lists all the references that made this quick-start article possibl
 
 Video Walkthrough : Credit goes to https://www.youtube.com/watch?v=EmSrQCDsMv4
 
-## [Introduction]
+## Introduction
 
 Github repositories can be enabled with Github pages. Github pages is a static hosting service that is integrated with Github repository. Github pages can be enabled on your repository in order to integrate your repo content and render it to your blogging site. Any changes to the repo are automatically built  by Jekyll and published to the blog. Jekyll is an open source software that builds the repository and publish to the Github pages blogging site. You can either edit the blog content directly online on Github or offline on a tool like Azure Data Studio. Blog posts can be created with markdown language. You can also include code snippets, embed  videos and images on your blog  articles. If using  Azure Data Studio, once  the post is complete, with a simple Git add, commit , and push you can upload the blog post to your Github repository. If Github repository is integrated with Github pages, Jekyll  automatically builds your repository and renders it on your blogging site.    
 
-## [Setup]
+## Setup
 
 1. Sign in to the [<Github> portal](https://github.com/).
 2. Create a new repository on the Github portal. 
@@ -69,10 +69,12 @@ Github repositories can be enabled with Github pages. Github pages is a static h
   ```
   This creates a new blog site with a folder called _posts that is the container for the blog post markdown files. 
   
-## [Author your blog posts!]
+## Author your blog posts
 
 1. Create your blog posts under the _posts folder
 2. Blog post file name follows the naming convention of date-title.md; Date should be formatted like this YYYY-MM-DD  
-3. On the Azure Data Studio Command Prompt, issue the Git Commit command then a Git Sync command. With this, your blog posts are uploaded to your repository and publised to the Github pages site
+3. On the Azure Data Studio Command Prompt, issue the Git Commit command then a Git Sync command. With this, your blog posts are uploaded to your repository and 
+   publised to the Github pages site
 
 
+Happy blogging!
