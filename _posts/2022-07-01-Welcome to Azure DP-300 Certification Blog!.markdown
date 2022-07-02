@@ -1,9 +1,4 @@
----
-layout: post
-title: "Welcome to Azure DP-300 Certification Blog!"
-date: "2022-07-01 17:00:00 -0800"
-categories: "DP-300"
----
+
 
 # __Purpose__
 
