@@ -1,0 +1,9 @@
+# Cheat Sheet for Azure DP-300 Exam Prep
+
+## 1. Azure SQL Server Deployment Options
+
+| Deployment | Use Case | Offering | 
+| ---------- | -------- | -------- |
+| SQL Virtual Machines | For applications that need access to OS components | IaaS |
+| Managed Instances | For applications that have instance level dependency such as CLR, Service broker, linked server,  etc. | PaaS |
+| Azure SQL Database | For applications that just need a connection string to connect to a SQL database | PaaS |
