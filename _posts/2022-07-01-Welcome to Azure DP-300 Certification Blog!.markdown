@@ -11,7 +11,8 @@ This blog summarizes the important take aways and key points to help prepare for
 
 # __Resources__
 
-* (https://docs.microsoft.com/en-us/learn/certifications/exams/dp-300)
+* [MS Learn Content Path if you like to read and practice](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-300)
+* [Video Series Related to the MS learning Path on Channel 9](https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN)
 
 # __Time Estimate__
 
