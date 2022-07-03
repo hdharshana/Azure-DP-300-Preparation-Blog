@@ -4,11 +4,11 @@
 
 | Deployment | Use Case | Offering | 
 | ---------- | -------- | -------- |
-| SQL Virtual Machines | For applications that need access to OS components | IaaS |
-| Managed Instances | For applications that have instance level dependency such as CLR, Service broker, linked server,  etc. | PaaS |
-| Azure SQL Database | For applications that just need a connection string to connect to a SQL database | PaaS |
+| SQL Virtual Machines | For applications that need access to OS components | IaaS (Tenants to maange updates, patching, and backups)|
+| Managed Instances | For applications that have instance level dependency such as CLR, Service broker, linked server,  etc. | PaaS (Managed patching, updates and backups)|
+| Azure SQL Database | For applications that just need a connection string to connect to a SQL database | PaaS (Managed patching, updates and backups)|
 
-##2 Purchasing Models, Service Tiers, and Hardware CHoices
+## 2. Purchasing Models, Service Tiers, and Hardware CHoices
 
 ### Purchasing Models : 
 
@@ -31,7 +31,7 @@
 
 * Default is Gen5 Hardware
 
-##3 Management Interfaces for Azure SQL
+## 3. Management Interfaces for Azure SQL
 
 * Azure Portal
 * SSMS
