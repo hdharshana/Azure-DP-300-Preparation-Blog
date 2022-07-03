@@ -181,9 +181,32 @@ Decisions to make prior to deployment -
 ![ConnectionPolocy](https://docs.microsoft.com/en-us/learn/modules/azure-sql-deploy-configure/media/5-connectivity.png)
 Reference: https://docs.microsoft.com/en-us/learn/modules/azure-sql-deploy-configure/5-configure-database
 
-Complete the lab for Configuration of SQL Azure Database here https://docs.microsoft.com/en-us/learn/modules/azure-sql-deploy-configure/6-exercise-configure-database 
+* Complete the lab for Configuration of SQL Azure Database here https://docs.microsoft.com/en-us/learn/modules/azure-sql-deploy-configure/6-exercise-configure-database 
+  
+  ** Client tools: Azure Data Studio, Azure Portal, SSMS, Azure CLI, PowerShell, Azure Cloud Shell through browser
+  ** FOr this lab,  Azure CLI is used.
+  ** az sql db holds commands related to the Azure SQL Database logical server. az sql mi and az sql midb are for managed instances. 
+  
 
 ## 4. Load Data into Azure SQL
+
+* Here are the data load options available for loading data into Azure SQL - 
+
+  1. BCP
+  2. Bulk Insert (Load data from Azure Data Storage in place of local machine due to inaccessbility to the local file system)
+  3. SSIS Packages 
+  4. Create a DB using an existing DB for a copy in Azure Data Factory
+  5. Import of a BACPACK file
+  6. In Azure SQL Managed Instance, T-SQL can be used to restore a database natively from a URL.
+
+* Considerations for Data Load
+
+  1. Data that needs to be loaded into Azure needs to be hosted in Azure.
+  2. Minimal logging is not supported in Azure so DBs are always running in full recovery mode. So aproriate batching and sizing needs to be done during bulk load for 
+     transaction log governance.
+  3. Use Clustered columnnstore indexes for efficient data load into Azure SQL or Azure SQL Managed Instance.
+
+
 
 
 
