@@ -114,9 +114,78 @@ Decisions to make prior to deployment -
     ```
    Source: https://docs.microsoft.com/en-us/learn/modules/azure-sql-deploy-configure/2-plan-deploy-verify
 
+
+### Exercises 
+
+* Follow the steps on the labs/exercises included with MS Learn to create and verify an Azure SQL Database on Azure portal using MS Learn Concierge Subscription
+* Use DatabaseName is not suppoted in Azure SQL (either conenct to the target DB during connection phase or use dropdown to select a database)
+* Verify deployment using basic queries on SSMS as well as Azure Data Studio with the sample Jupyter notebook.
+
 ## 3. Configure Azure SQL Database and Azure SQL Managed Instance
 
+### Configure SQL Managed Instance
+
+* You can configure using sp_configure and certain global trace flags.
+* TempDB , Model, and master have some options for configuration
+* Network connectivity configuraiton options are also available.
+* Alter database set options are available
+* dbcompat value can be set for migration scenarios
+* File maintenance options are available.
+* SQL Server Agent is available for job management.
+
+### Configure Azure SQL Database
+
+* Alter database set options available (dbcompat can be set)
+* No access to file configuration underneath
+* No support for SQL Server Agent. Elastic jobs for SQL Database can be used. With this T-SQL scripts can be run agains many databases including parallel execution.
+* Azure Automation Service can also be used to orchestrate processes through rubook. Runbook contains code like PowerShell or Python, and it can be directed at any 
+  Azure resource.
+* In Azure SQL Database specifically, "stale" page detection is enabled and the default server collation SQL_Latin1_General_CP1_CI_AS is always used. Additionally, the 
+  following default options are set to ON:
+
+  - SNAPSHOT_ISOLATION_STATE
+  - READ_COMMITTED_SNAPSHOT
+  - FULL RECOVERY
+  - CHECKSUM
+  - QUERY_STORE
+  - TDE
+  - ACCELERATED_DATABASE_RECOVERY
+
+### Restrcited Configuration Choices in Azure SQL and SQL Managed Instance
+
+- You can't stop or restart servers.
+- You can't use:
+  - Instant file initialization.
+  - Locked pages in memory (we may configure Locked pages in some SLO deployments)
+  - FILESTREAM and availability groups. (We use availability groups internally.)
+  - Server collation. (In SQL Managed Instance, you can select this during deployment but not change it.)
+  - Startup parameters.
+  - Error reporting and customer feedback.
+  - ALTER SERVER CONFIGURATION.
+  - ERRORLOG configuration.
+  - "Mixed Mode" security is forced, though Azure Active Directory only authentication is in preview
+  - Logon audit is done through SQL audit.
+  - Server proxy account is not applicable.
+
+### Storage Management
+
+* Possible maximum storage size is based on the chosen SLO. 1105 ad 1133 errors are observed once the max storage is reached.
+* Size of new DBs is based on the size of the model database.  (For Azure SQL DB, it is based on the chosen SLO)
+* The transaction log is in addition to the data size and is included with storage charges. It is truncated regulary due to automatic backups because Accerlarated 
+  Database Recovery is enabled by default in Azure SQL Datavase. The max transaction log is always set at 30% of the Data max size.
+* The Azure SQL database hyperscale itier is different from the other service tiers in that it creates a database that is initially 40 GB and grows automatically in size to the limit of 100 TB. The transaction log has a fixed size restriction of 1 TB. 
+
+### Connectivity Architecture and Policy
+
+* Default connection policy - Proxy for connections from outside and Redirect for connections within Azure
+![ConnectionPolocy](https://docs.microsoft.com/en-us/learn/modules/azure-sql-deploy-configure/media/5-connectivity.png)
+Reference: https://docs.microsoft.com/en-us/learn/modules/azure-sql-deploy-configure/5-configure-database
+
+Complete the lab for Configuration of SQL Azure Database here https://docs.microsoft.com/en-us/learn/modules/azure-sql-deploy-configure/6-exercise-configure-database 
+
 ## 4. Load Data into Azure SQL
+
+
 
 
 
