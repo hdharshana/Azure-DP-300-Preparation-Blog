@@ -5,9 +5,13 @@ date: 2020-07-01 21:00:00 -0300
 categories: DP-300
 ---
 
-# Cheat Sheet for Azure DP-300 Exam Prep (Module 1: Introduction to Auzure SQL)
+# Cheat Sheet for Azure DP-300 Exam Prep (Module 1: Introduction to Azure SQL)
 
-## 1. Azure SQL Server Deployment Options
+* Purpose
+
+This document gives an overview of the different Azure SQL Server deployment options, purhasing options, and management interfaces for the three different Azure SQL offerings.
+
+# [Azure SQL Server Deployment Options](#tab/azure-sql-deployment-options) 
 
 | Deployment | Use Case | Offering | 
 | ---------- | -------- | -------- |
@@ -15,7 +19,7 @@ categories: DP-300
 | Managed Instances | For applications that have instance level dependency such as CLR, Service broker, linked server,  etc. | PaaS (Managed patching, updates and backups)|
 | Azure SQL Database | For applications that just need a connection string to connect to a SQL database | PaaS (Managed patching, updates and backups)|
 
-## 2. Purchasing Models, Service Tiers, and Hardware CHoices
+# [Azure Purchasing Models and Service Tiers](#tab/azure-sql-purchasing-options) 
 
 ### Purchasing Models : 
 
@@ -38,7 +42,7 @@ categories: DP-300
 
 * Default is Gen5 Hardware
 
-## 3. Management Interfaces for Azure SQL
+# [Azure SQL Management Interfaces](#tab/azure-sql-management-interface-options)  
 
 * Azure Portal
 * SSMS
