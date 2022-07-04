@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Azure DP-300 Learning Notes
+nav_exclude: true
 ---
 
 # __Purpose__
