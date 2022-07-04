@@ -1,7 +1,7 @@
 ---
 layout: default
-title:  Cheat Sheet for Azure DP-300 Exam Prep  (Module 2 - Deploy and configure servers, instances, and databases for Azure SQL)
-parent: Module 2
+title:  Azure SQL Deployment
+parent: Implement a Secure Environment
 nav_order: 1
 #date: 2020-07-01 22:00:00 -0300
 #categories: DP-300
