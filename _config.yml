@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Welcome to Azure DP-300 Learning Blog
+title: Azure DP-300 Learning Blog
 remote_theme: just-the-docs/just-the-docs
 color_scheme: "dark"
 email: na
