@@ -41,9 +41,11 @@ SQL Server can be installed on any of the Azure offerings below depending on the
 
 | Deployment | Use Case | Offering | 
 | ---------- | -------- | -------- |
-| SQL Virtual Machines | For applications that need access to OS components | IaaS (Tenants to maange updates, patching, and backups)|
-| Managed Instances | For applications that have instance level dependency such as CLR, Service broker, linked server,  etc. | PaaS (Managed patching, updates and backups)|
-| Azure SQL Database | For applications that just need a connection string to connect to a SQL database | PaaS (Managed patching, updates and backups)|
+| SQL Virtual Machines | For applications that need access to OS components | IaaS (Tenants to manage updates, patching, and backups)|
+| Managed Instances | For applications that have instance level dependency such as CLR, Service broker, linked server,  etc. | PaaS (Managed patching, updates, and backups)|
+| Azure SQL Database | For applications that just need a connection string to connect to a SQL database | PaaS (Managed patching, updates, and backups)|
+
+
 
 
 
