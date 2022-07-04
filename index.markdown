@@ -1,6 +1,6 @@
 ---
 layout: default
-title: blog
+title: Azure DP-300 Learning Notes
 pagination:
   enabled: true
   collection: posts
