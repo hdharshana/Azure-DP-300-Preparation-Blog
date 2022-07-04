@@ -1,8 +1,3 @@
----
-layout: default
-title: Azure DP-300 Learning Notes
----
-
 # __Purpose__
 
 This blog summarizes the important take aways and key points to help prepare for the DP-300 Microsoft certtification exam. 
