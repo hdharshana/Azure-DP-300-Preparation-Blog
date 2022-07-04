@@ -16,6 +16,6 @@ has_children: true
 
    - [MS Learning Path for DP-300](https://docs.microsoft.com/en-us/learn/paths/introduction-to-azure-database-administration/)
 
-## Table of Contents:
+
 
 
