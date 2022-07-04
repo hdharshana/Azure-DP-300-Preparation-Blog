@@ -31,4 +31,3 @@ pagination:
     {% endfor %}
   </ul>
 
-</div
