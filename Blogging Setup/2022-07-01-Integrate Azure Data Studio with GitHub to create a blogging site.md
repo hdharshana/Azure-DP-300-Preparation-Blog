@@ -3,6 +3,7 @@ layout: default
 title:  Integrate Azure Data Studio with GitHub to create a blogging site!
 parent: Blogging Setup
 nav_order: 1
+nav_exclude: true
 # date: 2020-07-01 20:00:00 -0300
 # categories: DP-300
 ---
