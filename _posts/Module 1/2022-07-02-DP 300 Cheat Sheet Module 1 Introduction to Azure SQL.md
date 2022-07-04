@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: default
 title:  Cheat Sheet for Azure DP-300 Exam Prep  (Module 1 - Introduction to Azure SQL)
-date: 2020-07-01 21:00:00 -0300
-categories: DP-300
+parent: Module 1
+nav_order: 2
+#date: 2020-07-01 21:00:00 -0300
+#categories: DP-300
 ---
 
 # Cheat Sheet for Azure DP-300 Exam Prep (Module 1: Introduction to Azure SQL)

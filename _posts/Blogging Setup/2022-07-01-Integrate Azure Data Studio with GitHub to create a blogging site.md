@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: default
 title:  Integrate Azure Data Studio with GitHub to create a blogging site!
-date: 2020-07-01 20:00:00 -0300
-categories: DP-300
+parent: Blogging Setup
+nav_order: 1
+# date: 2020-07-01 20:00:00 -0300
+# categories: DP-300
 ---
 
 # Quickstart: Use Azure Data Studio, Git, and Jekyll to create a blogging site on Github pages with ease.
