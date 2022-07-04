@@ -1,0 +1,31 @@
+### YamlMime:Landing
+
+
+# linkListType: How-To
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+
+  # Card 
+  - title: Modude 1
+    linkLists:
+      - linkListType: Module 1 Cheat Sheet
+        links:
+          - text: Module 1 Cheat Sheet
+            url: _posts/2022-07-02-DP%20300%20Cheat%20Sheet%20Module%201%20Introduction%20to%20Azure%20SQL.markdown
+      - linkListType: Module 1 Cheat Sheet Copy
+        links:
+          - text: Module 1 Cheat Sheet
+            url: _posts/2022-07-02-DP%20300%20Cheat%20Sheet%20Module%201%20Introduction%20to%20Azure%20SQL.markdown
+  # Card 
+  - title: Module 2
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Module 2 Cheat Sheet
+            url: _posts/2022-07-02-DP%20300%20Cheat%20Sheet%20Module%202%20Plan%20and%20Implement%20Data%20Platform%20Resources.markdown
+      - linkListType: Module 1 Cheat Sheet Copy
+        links:
+          - text: Module 2 Cheat Sheet Copy
+            url: _posts/2022-07-02-DP%20300%20Cheat%20Sheet%20Module%202%20Plan%20and%20Implement%20Data%20Platform%20Resources.markdown
