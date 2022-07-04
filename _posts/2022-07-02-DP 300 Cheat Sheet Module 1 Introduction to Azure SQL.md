@@ -7,7 +7,7 @@ categories: DP-300
 
 # Cheat Sheet for Azure DP-300 Exam Prep (Module 1: Introduction to Azure SQL)
 
-* Purpose
+# __Purpose__
 
 This document gives an overview of the different Azure SQL Server deployment options, purhasing options, and management interfaces for the three different Azure SQL offerings.
 
