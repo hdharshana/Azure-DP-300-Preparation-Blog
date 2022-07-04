@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "This is a collection of study notes for Azure DP-300 Certification Exam."
+permalink: /
+---
+
 # __Purpose__
 
 This blog summarizes the important take aways and key points to help prepare for the DP-300 Microsoft certtification exam. 
