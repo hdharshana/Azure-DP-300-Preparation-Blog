@@ -10,7 +10,7 @@ has_children: true
 ## Learning Objectives
 
    - Refer to the [DP-300 exam skills outline](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4q3yZ) for what is measured on this certification exam. 
-   - This module focuses on the skill: Plan and Implement Data Platform Resources 
+   - This module focuses on the exam skill - Plan and Implement Data Platform Resources 
 
 ## Reference and Credit:  
 
