@@ -2,6 +2,7 @@
 layout: post
 title:  Cheat Sheet for Azure DP-300 Exam Prep (Module 1: Introduction to Auzure SQL)
 date: 2020-07-01 21:00:00 -0300
+description: Modeule 2 of DP-300 Notes
 categories: DP-300
 ---
 
