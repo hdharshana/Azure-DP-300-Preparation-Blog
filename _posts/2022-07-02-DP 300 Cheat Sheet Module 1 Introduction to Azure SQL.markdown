@@ -1,3 +1,10 @@
+---
+layout: post
+title:  Cheat Sheet for Azure DP-300 Exam Prep (Module 1: Introduction to Auzure SQL)
+date: 2020-07-01 21:00:00 -0300
+categories: DP-300
+---
+
 # Cheat Sheet for Azure DP-300 Exam Prep (Module 1: Introduction to Auzure SQL)
 
 ## 1. Azure SQL Server Deployment Options
