@@ -1,3 +1,10 @@
+---
+layout: post
+title:  Cheat Sheet for Azure DP-300 Exam Prep  (Module 2 - Deploy and configure servers, instances, and databases for Azure SQL)
+date: 2020-07-01 21:00:00 -0300
+categories: DP-300
+---
+
 # Cheat Sheet for Azure DP-300 Exam Prep  (Module 2 - Deploy and configure servers, instances, and databases for Azure SQL)
 
 __Resource__: https://docs.microsoft.com/en-us/learn/modules/azure-sql-deploy-configure/1-introduction
