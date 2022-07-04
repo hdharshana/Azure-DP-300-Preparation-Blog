@@ -2,7 +2,7 @@
 layout: default
 title: Azure SQL Management Interfaces
 parent: Plan and Implement Data Platform Resources
-nav_order: 4
+nav_order: 3
 #date: 2020-07-01 21:00:00 -0300
 #categories: DP-300
 ---
