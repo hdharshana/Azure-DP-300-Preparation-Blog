@@ -7,7 +7,7 @@ nav_order: 1
 #categories: DP-300
 ---
 
-# Azure SQL Deplument Options
+# Azure SQL Deployment Options
 
 # __Purpose__
 
@@ -19,7 +19,7 @@ SQL Server can be installed on any of the Azure offerings below depending on the
 
 * Infrastructure as a Service (IaaS)
   
-  SQL Server Azure VM allows installation of SQL Server into an Azure VM hosted in the cloud. This is very similar to installing and maintaining SQL on an on-prem VM     with the added benefits of cloud resiliency, extensions and infrastructure availability. Applications get more granular control on the underlying VM, OS, and SQL 
+  SQL Server Azure VM allows installation of SQL Server in an Azure VM hosted on the cloud. This is very similar to installing and maintaining SQL on an on-prem VM     with the added benefits of cloud resiliency, extensions and infrastructure availability. Applications get more granular control on the underlying VM, OS, and SQL 
   Server instance when hosted on IaaS. This is a simpler migraton path if there are features that are incompatible with the PaaS model. However, this requires ongoing 
   maintenance to keep the infrastructure up to date.
   
@@ -33,7 +33,7 @@ SQL Server can be installed on any of the Azure offerings below depending on the
     
   - Azure SQL Database
 
-    Azure SQL Database offers a platform agnostic SQL Server database. With this option, applications do not need to maintain an instance or VM. With a simple 
+    Azure SQL Database offers a SQL Server database hosted on the cloud. With this option, applications do not need to maintain an instance or VM. With a simple 
     connection string, applications can connect to the SQL database to execute any SQL workloads and get results. All the underlying maintenance is performed by the 
     Azure infrastructure. This includes ongoing updates to SQL Server, OS, and VM components.  
 
