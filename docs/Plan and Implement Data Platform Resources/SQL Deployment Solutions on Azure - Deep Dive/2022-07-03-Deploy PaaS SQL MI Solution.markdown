@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Deploy PaaS SQL MI Solution
-nav_order: 8
-has_children: true
+parent: SQL Deployment Solutions on Azure - Deep Dive
+nav_order: 7
+has_children: false
 ---

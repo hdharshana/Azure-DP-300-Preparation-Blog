@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SQL Deployment Solutions on Azure - Deep Dive
-nav_order: 6
+parent: Plan and Implement Data Platform Resources
+nav_order: 4
 has_children: true
 ---
