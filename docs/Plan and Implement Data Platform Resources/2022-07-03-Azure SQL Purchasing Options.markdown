@@ -18,11 +18,11 @@ nav_order: 2
 
 ### vCore-based Service Tiers
 
-    | Service Tier | Capability |
-    | ------------ | ---------- |
-    | General Purpose | Budget oriented scalable compute and storage options. It provides both provisioned compute tier and serverless compute tier.|
-    | Hyperscale | Suitable for applications that need 100TB+ stoarage and have dynamic compute and storage scale requirements. Only available in single database with Azure SQL. |
-    | Business Critical | Suitable for applications that need low latency response. This is the only tier that offers In-Memory OLTP. |
+   | Service Tier | Capability |
+   | ------------ | ---------- |
+   | General Purpose | Budget oriented scalable compute and storage options. It provides both provisioned compute tier and serverless compute tier.|
+   | Hyperscale | Suitable for applications that need 100TB+ stoarage and have dynamic compute and storage scale requirements. Only available in single database with Azure SQL. |
+   | Business Critical | Suitable for applications that need low latency response. This is the only tier that offers In-Memory OLTP. |
 
 ### DTU-based Service Tiers
 
