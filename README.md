@@ -12,13 +12,13 @@ This blog summarizes the important take aways and key points to help prepare for
 
 # __Resources__
 
-* [MS Learn Content Path if you like to read and practice](https://docs.microsoft.com/en-us/learn/paths/introduction-to-azure-database-administration/?tab=tab-learning-paths)
+* [MS Learn Content Path if you like to read and practice](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-300)
 * [Video Series Related to the MS learning Path on Channel 9](https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN)
 
 # __Study Guide Structure__
 
 * This study guide contains a section for each of the major exam skill as outlined in the [Microsoft DP-300 Exam Skills Outline](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4q3yZ) guide.
-* Each section contains my notes from the MS Learn content [here](https://docs.microsoft.com/en-us/learn/paths/introduction-to-azure-database-administration/?tab=tab-learning-paths)
+* Each section contains my notes from the MS Learn content [here](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-300)
 
 # __Time Estimate__
 

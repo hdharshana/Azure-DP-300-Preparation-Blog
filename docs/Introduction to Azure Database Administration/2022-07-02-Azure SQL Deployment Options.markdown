@@ -11,7 +11,7 @@ nav_order: 1
 
 # __Purpose__
 
-This document gives an overview of the different Azure SQL Server deployment options. Azure offers two main offerings - 
+This document gives an overview of the different Azure SQL Server deployment options. Azure offers two main offerings for SQL Server - Infrastructure as a Service (IaaS) and Platform as a Service (PaaS).
 
 # __Azure Offerings__
 
