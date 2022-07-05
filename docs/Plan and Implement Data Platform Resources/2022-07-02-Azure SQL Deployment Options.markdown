@@ -35,7 +35,8 @@ SQL Server can be installed on any of the Azure offerings below depending on the
 
     Azure SQL Database offers a SQL Server database hosted on the cloud. With this option, applications do not need to maintain an instance or VM. With a simple 
     connection string, applications can connect to the SQL database to execute any SQL workloads and get results. All the underlying maintenance is performed by the 
-    Azure infrastructure. This includes ongoing updates to SQL Server, OS, and VM components.  Azure SQL database offers two main deployment models - 
+    Azure infrastructure. This includes ongoing updates to SQL Server, OS, and VM components.  Azure SQL Database by default has a public internet endpoint. Access to 
+    this enpoint can be controlled via firewall rules, or limited to specific Azure VNets, or private links. Azure SQL database offers two main deployment models - 
     
     - Single Database (Individual database with resources allocated to the single database)
     - Elastic Pool (Pool of databases that share storage and compute resources allocated to the pool)
