@@ -49,6 +49,27 @@ SQL Server can be installed on any of the Azure offerings below depending on the
 | Managed Instances | For applications that have instance level dependency such as CLR, Service broker, linked server,  etc. | PaaS (Managed patching, updates, and backups)|
 | Azure SQL Database | For applications that just need a connection string to connect to a SQL database | PaaS (Managed patching, updates, and backups)|
 
+# Feature comparison between different Azure deployment options
+
+| Feature | Offering  | What is available?  |
+| ------- | ------------------ | ---------------------- |
+| Backup | Azure VM | Backup to URL (and) Azure Backup |
+| Deployment | Azure VM | ARM Templates |
+| Storage | Azure VM | Standard, Standard SSD, Premium SSD (5-10 ms delay), Ultra DIsk (Sub second latency) |
+| High Availability | Azure VM |Availability Sets, Availability Zones, and load-banalcing techniques |
+| Backup and Restore | Azure SQL DB | Continuous Backup, Geo-Restore, Point-in-time restore, Long-term retention |
+| Automatic Tuning | Azure SQL DB | Identify Expensive Queries, Forcing Plan, Add and Remove Indexes |
+| Elastic Query (preview) | Azure SQL Db | Vertical and horizontal partitioning (Not supported in MI) |
+| Elastic Job (preview) | Azure SQL DB | T-SQL commnands in target deployments liek SQL DB, SQL elastic pool, and SQL database in shard map can be run in parallel |
+| SQL Data Sync | Azure SQL DB | Incremental synchronization of data using hub and spoke approach (Not supported on MI) |
+| Hybrid Licensing Options | Azure SQL DB and MI | On-prem license offers 40% savings in Azure |
+| Backup and Restore | Azure SQL Managed Instance (MI) | Automated backups, geo-redundant, point-time-restore to same instance not possible, backups can be only restored to another MI; restore to SQL Azure VM or SQL Database not possible , copy only backup to BLOB possible (SQL database does not support this |
+| High Availability | Azure SQL Database and MI | failover groups |
+| Migration Options | MI | Backup restore or Dataabse Migration Service (DMS) |
+| ML Services, CLR, Linked Server, and SQL Agent | MI | Supported (not supported in SQL Database) |
+
+
+
 
 
 
