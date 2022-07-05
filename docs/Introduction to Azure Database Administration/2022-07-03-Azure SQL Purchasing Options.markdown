@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Azure SQL Purchasing Options
-parent: Plan and Implement Data Platform Resources
-nav_order: 2
+parent: Introduction to Azure Database Administration
+nav_order: 3
 #date: 2020-07-01 21:00:00 -0300
 #categories: DP-300
 ---

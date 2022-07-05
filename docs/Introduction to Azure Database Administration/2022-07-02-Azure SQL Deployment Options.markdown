@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Azure SQL  Deployment Options
-parent: Plan and Implement Data Platform Resources
+parent: Introduction to Azure Database Administration
 nav_order: 1
 #date: 2020-07-01 21:00:00 -0300
 #categories: DP-300
