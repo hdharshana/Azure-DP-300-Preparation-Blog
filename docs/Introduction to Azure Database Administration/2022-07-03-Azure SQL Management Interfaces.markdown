@@ -9,9 +9,9 @@ nav_order: 2
 
 # [Azure SQL Management Interfaces](#tab/azure-sql-management-interface-options)  
 
-* Azure Portal
-* SSMS
-* Azure Data Studio
-* Languages and APIs (Azure SQL supports REST APIs for management of SQL managed isntances and SQL databases; All drivers that work with SQL Server also work with Azure SQL)
-* CLI (sqlcmd and bcp support; Azure CLI and PS cmdlet support; tools like sqlcmd and az are pre-installed in Azure Cloud Shell)
+  * Azure Portal
+  * SSMS
+  * Azure Data Studio
+  * Languages and APIs (Azure SQL supports REST APIs for management of SQL managed isntances and SQL databases; All drivers that work with SQL Server also work with Azure SQL)
+  * Azure CLI (sqlcmd and bcp support; Azure CLI and PS cmdlet support; tools like sqlcmd and az are pre-installed in Azure Cloud Shell)
 
