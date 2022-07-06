@@ -10,7 +10,7 @@ has_children: true
 
    - Refer to the [DP-300 exam skills outline](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4q3yZ) for what is measured on this certification exam. 
    - This whole study guide is modeled after the DP-300 exam skills. 
-   - Each section is mapped to an individual exam skill as outlined here 
+   - Each section is mapped to an individual exam skill as outlined here [DP-300 exam skills outline](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4q3yZ)
    - This section  provides an overview of the Azure SQL environment.
 
 
