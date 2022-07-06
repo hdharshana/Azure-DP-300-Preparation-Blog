@@ -80,7 +80,7 @@ For a walkthrough of provisioning SQL Server Azure VM through Powershell, please
 
     The example below illustrates how to create a partition function for January 1, 2021 through December 1, 2021, and distribute the partitions across different filegroups.
 
-    '''sql
+    ```sql
     -- Partition function
     CREATE PARTITION FUNCTION PartitionByMonth (datetime2)
         AS RANGE RIGHT
@@ -101,7 +101,7 @@ For a walkthrough of provisioning SQL Server Azure VM through Powershell, please
     CREATE TABLE Order ([Id] int PRIMARY KEY, OrderDate datetime2)  
         ON PartitionByMonthSch (OrderDate) ;  
     GO
-    '''
+    ```
     Above Code Source: https://docs.microsoft.com/en-us/learn/modules/deploy-iaas-solutions-with-azure-sql/4-explore-performance-and-security
 
 
