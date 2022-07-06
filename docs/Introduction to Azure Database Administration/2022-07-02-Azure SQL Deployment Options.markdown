@@ -26,7 +26,7 @@ SQL Server can be installed on any of the Azure offerings below depending on bus
   
 * Platform as a Service (PaaS)
 
-  - Azure Managed Instance
+  - Azure SQL Managed Instance
   
     Managed Instance offers a pre-installed SQL Server instance installation on the cloud. Azure manages the SQL instance with this option, including patching and 
     backups. VM or OS access is not available. This migration path allows applications to utilize most of the SQL native features while offloading underlying OS and 
@@ -61,14 +61,14 @@ SQL Server can be installed on any of the Azure offerings below depending on bus
   | High Availability | Azure VM |Availability Sets, Availability Zones, and load-balancing techniques |
   | Backup and Restore | Azure SQL DB | Continuous Backup, Geo-Restore, Point-in-time restore Long-term retention |
   | Automatic Tuning | Azure SQL DB | Identify Expensive Queries, Forcing Plan, Add and Remove Indexes |
-  | Elastic Query (preview) | Azure SQL Db | Vertical and horizontal partitioning (Not supported in MI) |
+  | Elastic Query (preview) | Azure SQL DB | Vertical and horizontal partitioning (Not supported in MI) |
   | Elastic Job (preview) | Azure SQL DB | T-SQL commands in target deployments like SQL DB, SQL elastic pool, and SQL database in shard map can run in parallel |
   | SQL Data Sync | Azure SQL DB | Incremental synchronization of data using the hub and spoke approach (Not supported on MI) |
-  | Hybrid Licensing Options | Azure SQL DB and MI | On-prem license offers 40% savings in Azure |
-  | Backup and Restore | Azure SQL Managed Instance (MI) | Automated backups, geo-redundant, and point-time-restore to the same instance are not possible. Backup restore is only possible to another Managed Instance, and support to restore to other offerings is not available. Restoring to SQL Azure VM or SQL Database is not possible. Copy only Backup to BLOB is possible (SQL database does not support this |
-  | High Availability | Azure SQL Database and MI | failover groups |
-  | Migration Options | MI | Backup restore or Database Migration Service (DMS) |
-  | ML Services, CLR, Linked Server, and SQL Agent | MI | Supported (not supported in SQL Database) |
+  | Hybrid Licensing Options | Azure SQL DB and Azure SQL Managed Instance | On-prem license offers 40% savings in Azure |
+  | Backup and Restore | Azure SQL Managed Instance  | Automated backups, geo-redundant, and point-time-restore to the same instance are not possible. Backup restore is only possible to another Managed Instance, and support to restore to other offerings is not available. Restoring to SQL Azure VM or SQL Database is not possible. Copy only Backup to BLOB is possible (SQL database does not support this |
+  | High Availability | Azure SQL Database and Azure SQL Managed Instance | failover groups |
+  | Migration Options | Azure SQL Managed Instance | Backup restore or Database Migration Service (DMS) |
+  | ML Services, CLR, Linked Server, and SQL Agent | Azure SQL Managed Instance | Supported (not supported in SQL Database) |
 
 
 
