@@ -21,8 +21,7 @@ nav_order: 3
    | Service Tier | Capability |
    | ------------ | ---------- |
    | General Purpose | Budget-oriented scalable compute and storage options. It provides both provisioned compute tier, and serverless compute tier.|
-   | Hyperscale | Suitable for applications that need 100TB+ storage and have dynamic compute and storage scale requirements. Only available in single database 
-   offering with Azure SQL. |
+   | Hyperscale | Suitable for applications that need 100TB+ storage and have dynamic compute and storage scale requirements. Only available in single database offering with Azure SQL. |
    | Business Critical | Suitable for applications that need low latency response. It is the only tier that offers In-Memory OLTP. |
 
 ## DTU-based Service Tiers
@@ -37,7 +36,7 @@ nav_order: 3
 
 ## Compute Tiers
 
-   * Provisioned Compute - Regular usage patterns with higher average compute utilization over time. Provides a fixed amount of resources over time to ensure optimal 
+   * Provisioned Compute - Suitable for regular usage patterns with steady compute utilization over time. Provides a fixed amount of resources over time to ensure optimal 
      performance.
 
    * Serverless Compute - Suitable for intermittent, unpredictable usage patterns. Provides automatic compute scaling and is billed only for the amount of compute 
