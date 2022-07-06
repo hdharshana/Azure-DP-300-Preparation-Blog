@@ -58,7 +58,7 @@ nav_order: 1
    | SQL Data Sync | Azure SQL DB | Incremental synchronization of data using the hub and spoke approach (Not supported with SQL Server Managed Instance offering) |
    | Hybrid Licensing Options | Azure SQL DB and Azure SQL Managed Instance | On-prem license offers 40% savings in Azure |
    | Backup and Restore | Azure SQL Managed Instance  | Automated backups, geo-redundant, and point-in-time-restore to the same instance are not available. Backup restore support to another Managed Instance is available. Restoring to SQL Azure VM or SQL Database is not available. Copy only Backup to BLOB is available (SQL database does not support this |
-   | High Availability | Azure SQL Database and Azure SQL Managed Instance | failover groups |
+   | High Availability | Azure SQL Database and Azure SQL Managed Instance | Support for Failover Groups |
    | Migration Options | Azure SQL Managed Instance | Backup restore or Database Migration Service (DMS) |
    | ML Services, CLR, Linked Server, and SQL Agent | Azure SQL Managed Instance | Supported (not supported in SQL Database) |
 
