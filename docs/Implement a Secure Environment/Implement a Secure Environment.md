@@ -5,30 +5,17 @@ nav_order: 4
 has_children: true
 ---
 
-# Learning Objectives for Exam Leagning Goal - Implement a Secure Environment (15—20%)
+# Implement a Secure Environment
 
-* Configure database authentication by using platform and database tools
+## Learning Objectives
 
-  - configure Azure AD authentication
-  - create users from Azure AD identities
-  - configure security principals
+   - Refer to the [DP-300 exam skills outline](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4q3yZ) for what is measured on this certification exam. 
+   - This section focuses on the exam skill - Implement a Secure Environment
 
-* Configure database authorization by using platform and database tools
-  - configure database and object-level permissions using graphical tools
-  - apply principle of least privilege for all securables
+## Reference and Credit:  
 
-* Implement security for data at rest
-  - implement Transparent Data Encryption (TDE)
-  - implement object-level encryption
-  - implement Dynamic Data Masking
-  - implement Azure Key Vault and disk encryption for Azure VMs
+   - [MS Learning Path for DP-300](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-300)
 
-* Implement security for data in transit
-  - configure server and database-level firewall rules
-  - implement Always Encrypted
 
-* Implement compliance controls for sensitive data
-  - apply a data classification strategy
-  - configure server and database audits
-  - implement data change tracking
-  - perform a vulnerability assessment
+
+
