@@ -11,8 +11,7 @@ nav_order: 1
 
 ## __Purpose__
 
-   This document gives an overview of the different Azure SQL Server deployment options. Azure offers two main offerings for SQL Server - Infrastructure as a Service 
-   (IaaS) and Platform as a Service (PaaS).
+   This document gives an overview of the different Azure SQL Server deployment options. Azure offers two main offerings for SQL Server - Infrastructure as a Service (IaaS) and Platform as a Service (PaaS).
 
 ## __Azure Offerings__
 
@@ -41,8 +40,7 @@ nav_order: 1
    | Deployment | Use Case | Offering | 
    | ---------- | -------- | -------- |
    | SQL Virtual Machines | For applications that need access to OS components | IaaS (Tenants to manage updates, patching, and backups)|
-   | Managed Instances | For applications that have instance-level dependency such as CLR, Service Broker, linked server,  etc. | PaaS (Managed patching, updates, and 
-   backups)|
+   | Managed Instances | For applications that have instance-level dependency such as CLR, Service Broker, linked server,  etc. | PaaS (Managed patching, updates, and backups)|
    | Azure SQL Database | For applications that need a connection string to connect to a SQL database | PaaS (Managed patching, updates, and backups)|
 
 ## __Feature comparison between different Azure deployment options__
@@ -59,8 +57,7 @@ nav_order: 1
    | Elastic Job (preview) | Azure SQL DB | T-SQL commands in target deployments like SQL DB, SQL elastic pool, and SQL database in shard map can run in parallel |
    | SQL Data Sync | Azure SQL DB | Incremental synchronization of data using the hub and spoke approach (Not supported with SQL Server Managed Instance offering) |
    | Hybrid Licensing Options | Azure SQL DB and Azure SQL Managed Instance | On-prem license offers 40% savings in Azure |
-   | Backup and Restore | Azure SQL Managed Instance  | Automated backups, geo-redundant, and point-in-time-restore to the same instance are not available. Backup 
-    restore support to another Managed Instance is available. Restoring to SQL Azure VM or SQL Database is not available. Copy only Backup to BLOB is available (SQL database does not support this |
+   | Backup and Restore | Azure SQL Managed Instance  | Automated backups, geo-redundant, and point-in-time-restore to the same instance are not available. Backup restore support to another Managed Instance is available. Restoring to SQL Azure VM or SQL Database is not available. Copy only Backup to BLOB is available (SQL database does not support this |
    | High Availability | Azure SQL Database and Azure SQL Managed Instance | failover groups |
    | Migration Options | Azure SQL Managed Instance | Backup restore or Database Migration Service (DMS) |
    | ML Services, CLR, Linked Server, and SQL Agent | Azure SQL Managed Instance | Supported (not supported in SQL Database) |
