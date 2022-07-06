@@ -117,6 +117,39 @@ For a walkthrough of provisioning SQL Server Azure VM through Powershell, please
 For performance best practices, refer to [Checklist: Best practices for SQL Server on Azure VMs
 ](https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-checklist?view=azuresql)
 
+# High Availability  Options
+
+ - Availability Zones (Independent units of power/cooling/networking within a region - Kind of like Data Centers in a region. Workload is spread across Data Centers in a region)
+ - Availabiltiy Sets (Workload is spread across servers and racks in a data center. Guarantees that two VMs containing your AG members are not running on the same physical host)
+ - AlwaysOn AG (upto 9 replicas - if some latency is acceptable , choose synchronous for HA replica; if latency is not acceptable , choose aasynchronous)
+ - SQL Server Failover Cluster Instances - Shared storage HA solution (Not DR)
+
+# Disaster Recover Options
+
+  - Native SQL Server backups
+
+    - Azure VMs offer a granular control of when backups occur and where they are stored. 
+    - SQL Agent jobs can be used to backup directly to a URL linked to Azure blob storage. 
+    - Azure provides the option to use GRS or RA-GRS to ensure your backups are stored across the geopgraphic landscape. 
+    - You can also opt for auto managed backups by the paltform as part of Azure VM offering.
+
+  - Azure Backup for SQL Server
+
+    The Azure backup solution requires an agent to be isntalled on the Azure VM. THe agent then communicate with an Azure service that manages backups centrally. 
+
+    ![image](https://docs.microsoft.com/en-us/learn/wwl-data-ai/deploy-iaas-solutions-with-azure-sql/media/module-22-plan-implement-final-04.png)
+    
+    Reference: https://docs.microsoft.com/en-us/learn/modules/deploy-iaas-solutions-with-azure-sql/5-explain-high-availability-and-disaster-recovery-options
+
+  - Azure Site Recovery
+
+    Low-cost solution that performs block level replication of the Azure VM. THis solution is best suited for stateless environments such as web servers and not ideal for transactional systems such as databases. 
+
+    ![image](https://docs.microsoft.com/en-us/learn/wwl-data-ai/deploy-iaas-solutions-with-azure-sql/media/module-55-optimize-queries-final-17.png)
+
+
+
+
 
 
 
