@@ -9,6 +9,8 @@ nav_order: 2
 
 # [Azure SQL Management Interfaces](#tab/azure-sql-management-interface-options)  
 
+  The following interfaces can be used to manage the provisioned Azure deployment - 
+  
   * Azure Portal
   * SSMS
   * Azure Data Studio
