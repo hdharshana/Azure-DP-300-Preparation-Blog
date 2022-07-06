@@ -17,17 +17,17 @@ nav_order: 1
 
    SQL Server can be installed on any of the Azure offerings below depending on business needs and existing database workload characteristics.
 
-   * Infrastructure as a Service (IaaS)
+   * __Infrastructure as a Service (IaaS)__
   
      SQL Server Azure VM allows installation of SQL Server in an Azure VM hosted on the cloud. It is very similar to installing and maintaining SQL on an on-prem VM with the added benefits of cloud resiliency, availability of Azure extensions, and underlying infrastructure management by Microsoft. Applications get more granular control on the underlying VM, OS, and SQL  Server instance when hosted on IaaS. It is an easier migration path for applications with features incompatible with the PaaS model. However, this requires ongoing maintenance to keep the infrastructure up to date.
 
-  * Platform as a Service (PaaS)
+  * __Platform as a Service (PaaS)__
 
-    - Azure SQL Managed Instance
+    - __Azure SQL Managed Instance__
   
       Managed Instance offers a pre-installed SQL Server instance installation on the cloud. Azure manages the SQL instance with this option, including patching and backups. VM or OS access is not available. This migration path allows applications to utilize most of the SQL native features while offloading underlying OS and VM-related maintenance. 
 
-    - Azure SQL Database
+    - __Azure SQL Database__
 
       Azure SQL Database offers a SQL Server database hosted on the cloud. With this option, applications do not need to maintain an instance or VM. With a simple    connection string, applications can connect to the SQL database to execute any SQL workloads and get results. The Azure infrastructure performs all the underlying maintenance, such as ongoing updates to SQL Server, OS, and VM components. Azure SQL Database, by default, has a public internet endpoint. Access to this endpoint can be controlled via firewall rules or limited to specific Azure VNets, or private links. Azure SQL database offers two primary deployment models 
       
