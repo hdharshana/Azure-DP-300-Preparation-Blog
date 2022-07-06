@@ -36,7 +36,7 @@ nav_order: 3
 
 ## Compute Tiers
 
-   * Provisioned Compute - Suitable for regular usage patterns with steady compute utilization over time. Provides a fixed amount of resources over time to ensure optimal 
+   * Provisioned Compute - Suitable for regular usage patterns with predictable compute utilization over time. Provides a fixed amount of resources over time to ensure optimal 
      performance.
 
    * Serverless Compute - Suitable for intermittent, unpredictable usage patterns. Provides automatic compute scaling and is billed only for the amount of compute 
