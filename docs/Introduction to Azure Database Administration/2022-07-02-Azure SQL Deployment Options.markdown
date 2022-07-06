@@ -11,8 +11,8 @@ nav_order: 1
 
 ## __Purpose__
 
-   This document gives an overview of the different Azure SQL Server deployment options. Azure offers two main offerings for SQL Server - Infrastructure as a Service (IaaS) and Platform as a Service (PaaS).
-
+   This document gives an overview of the two primary Azure SQL Server offerings and the deployment options available within those offerings. The article also compares the features of the different deployment options. Azure offers two main offerings for SQL Server - Infrastructure as a Service (IaaS) and Platform as a Service (PaaS).
+  
 ## __Azure Offerings__
 
    SQL Server can be installed on any of the Azure offerings below depending on business needs and existing database workload characteristics.
@@ -62,6 +62,7 @@ nav_order: 1
    | Migration Options | Azure SQL Managed Instance | Backup restore or Database Migration Service (DMS) |
    | ML Services, CLR, Linked Server, and SQL Agent | Azure SQL Managed Instance | Supported (not supported in SQL Database) |
 
+   Note: the above table only goes over high level featyre differences between the different Azure deployment options. For a detailed feature comparison matrix, please refer to the [feature comparison article](https://docs.microsoft.com/en-us/azure/azure-sql/database/features-comparison?view=azuresql).
 
 
 
