@@ -158,11 +158,12 @@ SQL Server Failover Cluster Instances - Shared storage HA solution (Not DR)
 
    - Azure Site Recovery
 
-    - A low-cost solution that performs block level replication of the Azure VM. This solution is best suited for stateless environments such as web servers and not ideal for transactional systems such as databases.
+     - A low-cost solution that performs block level replication of the Azure VM. This solution is best suited for stateless environments such as web servers and not ideal for transactional systems such as databases.
 
-    ![image](https://docs.microsoft.com/en-us/learn/wwl-data-ai/deploy-iaas-solutions-with-azure-sql/media/module-55-optimize-queries-final-17.png)
     
-    Image Source: (https://docs.microsoft.com/en-us/learn/wwl-data-ai/deploy-iaas-solutions-with-azure-sql/media/module-55-optimize-queries-final-17.png)
+   ![image](https://docs.microsoft.com/en-us/learn/wwl-data-ai/deploy-iaas-solutions-with-azure-sql/media/module-55-optimize-queries-final-17.png)
+    
+   Image Source: (https://docs.microsoft.com/en-us/learn/wwl-data-ai/deploy-iaas-solutions-with-azure-sql/media/module-55-optimize-queries-final-17.png)
 
 
 
