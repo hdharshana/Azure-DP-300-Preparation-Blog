@@ -62,7 +62,7 @@ nav_order: 1
    | Migration Options | Azure SQL Managed Instance | Backup/Restore or Database Migration Service (DMS) |
    | ML Services, CLR, Linked Server, and SQL Agent | Azure SQL Managed Instance | Supported in Azure SQL Managed Instance (not supported in SQL Database) |
 
-   Note: the above table only goes over high level featyre differences between the different Azure deployment options. For a detailed feature comparison matrix, please refer to the [feature comparison article](https://docs.microsoft.com/en-us/azure/azure-sql/database/features-comparison?view=azuresql).
+   Note: the above table only goes over high level feature differences between the different Azure deployment options. For a detailed feature comparison matrix, please refer to the [feature comparison article](https://docs.microsoft.com/en-us/azure/azure-sql/database/features-comparison?view=azuresql).
 
 
 
