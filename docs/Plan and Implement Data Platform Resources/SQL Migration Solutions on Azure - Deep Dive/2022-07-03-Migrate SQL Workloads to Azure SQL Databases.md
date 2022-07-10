@@ -44,3 +44,29 @@ nav_order: 2
 
     Azure Database Migration Service offers a centralized migration service in the Azure portal to enable seamless migrations from multiple database sources to Azure Data platforms, with minimal downtime. DMA can migrate MySQL< PostegreSQL, MariaDB to the respective Azure OSS DBs.
    
+# Online Migration to Azure SQL Database
+
+  Transactional replication can be used to keep the Azure database in sync until the actual curover takes place. 
+  
+  The publisher and distributor must be at least the following version and update:
+
+  - SQL Server 2017 (14.x)
+  - SQL Server 2016 (13.x)
+  - SQL Server 2014 (12.x) SP1 CU3
+  - SQL Server 2014 (12.x) RTM CU10
+  - SQL Server 2012 (11.x) CU8 or SP3
+
+# DR options for Azure SQL Database
+
+  - Active geo-replication
+  - Auto failover groups
+  - Geo-restore
+  - Zone-redundant databases
+ 
+ # Service scalability options for Azure SQL Database
+ 
+   - Vertical scale-up/scale-down
+   - Horizontal scale-up/scale-down (Sharding with a sharding key is available both on Single database and elastic pool)
+   
+
+
