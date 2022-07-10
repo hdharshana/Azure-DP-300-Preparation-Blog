@@ -35,5 +35,5 @@ Backup feature is same as in Azure SQL Database offering. Some key differences a
 
 # Azure SQL Edge
 
-Optimized relational database engine designed for IoT workloads. It is a containerized version of the SQL Server database engine optimized for IoT. 
+Optimized relational database engine designed for IoT workloads. It is a containerized version of the SQL Server database engine optimized for IoT. Sync to SQL Server or Azure SQL is done using SQL Data Sync (Hub and spoke method).
   
