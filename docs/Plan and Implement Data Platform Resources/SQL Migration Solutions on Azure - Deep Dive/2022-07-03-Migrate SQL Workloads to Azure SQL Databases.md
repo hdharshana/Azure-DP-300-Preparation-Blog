@@ -42,5 +42,5 @@ nav_order: 2
 
   * Azure Database Migration Service
 
-   Azure Database Migration Service offers a centralized migration service in the Azure portal to enable seamless migrations from multiple database sources to Azure Data platforms, with minimal downtime. DMA can migrate MySQL< PostegreSQL, MariaDB to the respective Azure OSS DBs.
+    Azure Database Migration Service offers a centralized migration service in the Azure portal to enable seamless migrations from multiple database sources to Azure Data platforms, with minimal downtime. DMA can migrate MySQL< PostegreSQL, MariaDB to the respective Azure OSS DBs.
    
